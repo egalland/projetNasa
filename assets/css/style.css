@@ -1,0 +1,14 @@
+.container{
+  max-width: 1400px;
+}
+.card-text{
+  position:relative;
+  height: 50px;
+  top:12em;
+}
+.card{
+  height:315px;
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
