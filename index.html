@@ -15,49 +15,206 @@
   integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
   <!-- GOOGLE FONT -->
   <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet" />
+  <!-- ICONE DE PAGE -->
+  <link rel="icon" href="https://www.nasa.gov/sites/all/themes/custom/nasatwo/images/nasa-logo.svg" />
   <!-- FEUILLE DE STYLE -->
   <link rel="stylesheet" href="assets/css/style.css" />
 </head>
 <body>
   <div class="container-fluid">
+    <!-- Partie Dominique -->
     <div class="row">
-      <div class="d-flex justify-content-center">
-        <!-- Partie Emmanuel -->
+      <nav class="navbar navbar-expand-md navbar-light bg-light navbar-fixed-top">
+        <div class="navbar-header">
+          <a class="logo" href="#">
+            <img src="https://www.nasa.gov/sites/all/themes/custom/nasatwo/images/nasa-logo.svg" />
+          </a>
+        </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav" id="nasa-main-menu">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="Mission" aria-haspopup="true" aria-expanded="false">
+                Mission
+              </a>
+            </li>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <ul>
+                <li><a class="dropdown-item" href="#">International Space Station</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+              </ul>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="Galleries" aria-haspopup="true" aria-expanded="false">
+                Galleries
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="NASA TV" aria-haspopup="true" aria-expanded="false">
+                NASA TV
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="Follow NASA" aria-haspopup="true" aria-expanded="false">
+                Follow NASA
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="Downloads" aria-haspopup="true" aria-expanded="false">
+                Downloads
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="About" aria-haspopup="true" aria-expanded="false">
+                About
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="NASA Audiences" aria-haspopup="true" aria-expanded="false">
+                NASA Audiences
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+          </ul>
+          <ul>
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="#">Link</a></li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+    </div>
+    <!--Partie Ryan -->
+    <div class="row">
+      <div class="col-lg-6 col-md-6">
+        <img class="card-img-top" src="https://www.nasa.gov/sites/default/files/styles/2x2_cardfeed/public/thumbnails/image/zurek-1-pia22519-1200.gif" alt="Unmanned Aircraft" />
+      </div>
+      <div class="col-lg-6 col-md-6">
         <div class="row">
-          <div class="col-sm-6 col-lg-3 card">
-            <img class="card-img-top" src="assets/image/18-051c.jpg" alt="Unmanned Aircraft">
-            <div class="card-img-overlay">
-              <div class="h-60"></div>
-              <h4 class="card-title">Aeronautics</h4>
-              <p class="card-text">NASA Flies Large Unmanned Aircraft Without Chase Plane</p>
+          <div id=io class="col-lg-6 col-md-3">
+            6<img class="card-img-top" src="https://www.nasa.gov/sites/default/files/thumbnails/image/peggy_whitson_0.jpg" alt="Unmanned Aircraft">
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+            <h4 class="no-countdown">NASA Events</h4>
+            <div class="title">
+              <a href="https://www.nasa.gov/nasalive" target="_blank">Friday, June 15, 1:30 p.m. EDT: Space Station Crew Presentation with astronauts Joe Acaba and Mark Vande Hei</a>
+            </div>
+            <div class="title">
+              <a href="https://twitter.com/NASAedu/status/1006559251739729920" target="_blank">Friday, June 15, 3:15 p.m. EDT: Periscope Live Q+A With Astronauts Joe Acaba and Mark Vande Hei</a>
+            </div>
+            <div class="title">
+              <a href="https://www.nasa.gov/nasalive" target="_blank">Monday, June 18, 2 p.m. EDT: News Conference With Expedition 57 Crew, Launching to Space Station in October</a>
+            </div>
+            <div class="title">
+              <a href="https://www.nasa.gov/multimedia/nasatv/schedule.html" target="_blank">NASA TV Schedule</a>
             </div>
           </div>
-          <div class="col-sm-6 col-lg-3 card">
-            <img class="card-img-top" src="assets/image/p7090097.jpg" alt="Unmanned Aircraft">
-            <div class="card-img-overlay">
-              <h4 class="card-title">Earth</h4>
-              <p class="card-text">3D View of Amazon Forests Captures Effects of El Niño Drought</p>
-            </div>
-          </div>
-          <div class="col-sm-6 col-lg-3 card">
-            <img class="card-img-top" src="assets/image/pia19808.jpg" alt="Unmanned Aircraft">
-            <div class="card-img-overlay">
-              <h4 class="card-title">Mars Curiosity</h4>
-              <p class="card-text">NASA Finds Ancient Organic Material, Mysterious Methane on Mars</p>
-            </div>
-          </div>
-          <div class="col-sm-6 col-lg-3 card">
-            <img class="card-img-top" src="assets/image/lunar_feature_header_pic.jpg" alt="Unmanned Aircraft">
-            <div class="card-img-overlay">
-              <h4 class="card-title">Moon and Mars</h4>
-              <p class="card-text">New Position to Focus on Exploration of Moon, Mars and Worlds Beyond</p>
-            </div>
+          <div id=ie class="col">
+            <img class="card-img-top" src="assets/image/Nasa3.jpg" alt="Unmanned Aircraft" />
           </div>
         </div>
-        <div class="row">
-          <div class="col">
-          </div>
+      </div>
+    </div>
+    <!--Partie Malika -->
+    <div class="row">
+      <div class="card col-lg-3 col-md-6 col-xs-12 img-responsive" style="background-image:url(assets/image/img1.jpg)">
+        <a href="#"></a>
+        <p>Ice</p>
+        <p class="card-text bg-light">Ramp-Up in Antarctic Ice Loss Speeds Sea Level Rise</p>
+      </div>
+      <div class="card col-lg-6 col-md-6 col-xs-12 img-responsive" style="background-image:url(assets/image/img2.jpg)">
+        <a href="#"></a>
+        <p>Image of the Day</p>
+        <p class="card-text bg-light">Bang and Whoosh!</p>
+      </div>
+      <div class="card col-lg-3 col-md-6 col-xs-12">
+        <a class="twitter-timeline" data-height="100%" href="https://twitter.com/NASA?ref_src=twsrc%5Etfw">Tweets by NASA</a>
+        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      </div>
+    </div>
+    <!-- Partie Emmanuel -->
+    <div class="row">
+      <div class="col-sm-6 col-lg-3 card">
+        <img class="card-img-top" src="assets/image/18-051c.jpg" alt="Unmanned Aircraft">
+        <div class="card-img-overlay">
+          <div class="h-60"></div>
+          <h4 class="card-title">Aeronautics</h4>
+          <p class="card-text">NASA Flies Large Unmanned Aircraft Without Chase Plane</p>
         </div>
+      </div>
+      <div class="col-sm-6 col-lg-3 card">
+        <img class="card-img-top" src="assets/image/p7090097.jpg" alt="Unmanned Aircraft">
+        <div class="card-img-overlay">
+          <h4 class="card-title">Earth</h4>
+          <p class="card-text">3D View of Amazon Forests Captures Effects of El Niño Drought</p>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-3 card">
+        <img class="card-img-top" src="assets/image/pia19808.jpg" alt="Unmanned Aircraft">
+        <div class="card-img-overlay">
+          <h4 class="card-title">Mars Curiosity</h4>
+          <p class="card-text">NASA Finds Ancient Organic Material, Mysterious Methane on Mars</p>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-3 card">
+        <img class="card-img-top" src="assets/image/lunar_feature_header_pic.jpg" alt="Unmanned Aircraft">
+        <div class="card-img-overlay">
+          <h4 class="card-title">Moon and Mars</h4>
+          <p class="card-text">New Position to Focus on Exploration of Moon, Mars and Worlds Beyond</p>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col bouton">
       </div>
     </div>
   </div>
