@@ -1,0 +1,37 @@
+body{
+  background: black;
+}
+.container-fluid{
+  max-width: 1352px;
+}
+.card{
+  background: none;
+  padding-bottom: 10px;
+}
+.card img{
+  height: 100%;
+  border-radius: 0px;
+}
+.card p{
+  background-color: rgba(255, 255, 255, 0.9);
+  width: 100%;
+}
+.card h4{
+  background-color: rgba(129, 155, 200, 0.9);
+}
+.card h4:hover{
+  background-color: #819bc8;
+}
+.card p:hover{
+  background-color: white;
+}
+.card-img-overlay{
+  padding: 15px;
+}
+
+@media all (min-width: 992px){
+  .card img{
+    min-width: 234px;
+    min-height: 222px;
+  }
+}
