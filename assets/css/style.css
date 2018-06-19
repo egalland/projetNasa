@@ -4,7 +4,9 @@ body{
   font-weight: bold;
 }
 nav{
-  z-index:3000px;
+  z-index:100;
+  max-width: 1352px;
+  margin: auto;
 }
 .container-fluid{
   max-width: 1352px;
@@ -52,50 +54,11 @@ nav{
   height:315px;
   margin: 10px 0 0 0;
 }
-.bouton{
-  color: white;
-  font-weight: bold;
-  width: 100%;
-  height: 40px;
-  background-color: #15418C;
-  margin: 30px 0;
-  text-align: center;
-  padding: 5px;
-}
-.bouton:hover{
-  background-color: #5D7FB9;
-  text-decoration: none;
-  color: white;
-}
 #ie{
   height: 580px;
 }
 #io{
   height:250px;
-}
-#tuile5, #tuile6, #tuile7, #tuile8, #tuile9, #tuile10{
-  height:315px;
-  background-size:cover;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-#tuile5{
-  background-image: url(../image/img1.jpg);
-}
-#tuile6{
-  background-image:url(../image/img2.jpg);
-}
-#tuile7{
-  background-image: url(../image/18-051c.jpg);
-}
-#tuile8{
-  background-image: url(../image/p7090097.jpg);
-}
-#tuile9{
-  background-image: url(../image/pia19808.jpg);
-}
-#tuile10{
-  background-image: url(../image/lunar_feature_header_pic.jpg);
 }
 #events{
   background-color: #39719E;
@@ -113,4 +76,44 @@ hr{
 }
 .card a{
   color: black;
+}
+#tuile5, #tuile6, #tuile7, #tuile8, #tuile9, #tuile10{
+  height:315px;
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#tuile5{
+  background-image: url(../image/img1.jpg);
+}
+#tuile6{
+  background-image:url(../image/img2.jpg);
+}
+#tuile7{
+  background-image: url(../image/18-051c.jpg);
+  margin: 15px;
+}
+#tuile8{
+  background-image: url(../image/p7090097.jpg);
+}
+#tuile9{
+  background-image: url(../image/pia19808.jpg);
+}
+#tuile10{
+  background-image: url(../image/lunar_feature_header_pic.jpg);
+}
+.bouton{
+  color: white;
+  font-weight: bold;
+  width: 100%;
+  height: 40px;
+  background-color: #15418C;
+  margin: 30px 0;
+  text-align: center;
+  padding: 5px;
+}
+.bouton:hover{
+  background-color: #5D7FB9;
+  text-decoration: none;
+  color: white;
 }
