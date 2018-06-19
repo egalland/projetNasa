@@ -66,9 +66,6 @@ nav{
 .btn{
   border-radius: 0;
 }
-#ryan{
-  padding-top: 138px;
-}
 .card{
   height:315px;
   margin-top: 10px;
@@ -135,13 +132,6 @@ hr{
 }
 #tuile1{
   background-image: url(https://www.nasa.gov/sites/default/files/styles/2x2_cardfeed/public/thumbnails/image/zurek-1-pia22519-1200.gif);
-  height: 640px;
-}
-#tuile1 #text-blue{
-  top: 34.4em;
-}
-#tuile1 .card-text{
-  top: 34.6em;
 }
 #tuile2{
   background-image: url(https://www.nasa.gov/sites/default/files/thumbnails/image/peggy_whitson_0.jpg);
@@ -200,6 +190,37 @@ hr{
 .test3{
   padding: 0 10px;
 }
-.navbar-toggler-icon{
-  color: white;
+@media all and (min-width: 1022px){
+  .secondNav{
+    display: block;
+  }
+  #tuile1{
+    height: 640px;
+  }
+  #tuile1 #text-blue{
+    top: 34.4em;
+  }
+  #tuile1 .card-text{
+    top: 34.6em;
+  }
+  #ryan{
+    padding-top: 138px;
+  }
+}
+@media all and (max-width: 1022px){
+  .secondNav{
+    display: none;
+  }
+  #tuile1{
+    height: 315px;
+  }
+  #tuile1 #text-blue{
+    top: 13.8em;
+  }
+  #tuile1 .card-text{
+    top: 14.2em;
+  }
+  #ryan{
+    padding-top: 110px;
+  }
 }
