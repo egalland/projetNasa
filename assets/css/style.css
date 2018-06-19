@@ -35,9 +35,17 @@ body{
 }
 .card{
   height:315px;
-  background-size:cover;
-  background-repeat: no-repeat;
-  background-position: center;
+  margin: 10px 0 0 0;
+}
+#text-blue{
+  position:relative;
+  background-color: rgba(129, 155, 200, 0.9);
+  font-weight: bold;
+  color: white;
+  top: 15em;
+}
+#text-blue:hover{
+  background-color: #819bc8;
 }
 .bouton{
   color: white;
@@ -57,6 +65,15 @@ body{
 #ie{
   height: 580px;
 }
+#io{
+  height:250px;
+}
+#tuile5, #tuile6, #tuile7, #tuile8, #tuile9, #tuile10{
+  height:315px;
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
 #tuile5{
   background-image: url(../image/img1.jpg);
 }
@@ -66,16 +83,15 @@ body{
 #tuile7{
   background-image: url(../image/18-051c.jpg);
 }
-#io{
-  height:250px;
+#tuile8{
+  background-image: url(../image/p7090097.jpg);
 }
-#text-blue{
-  position:relative;
-  background-color: rgba(129, 155, 200, 0.9);
-  font-weight: bold;
-  color: white;
-  top: 15em;
+#tuile9{
+  background-image: url(../image/pia19808.jpg);
 }
-#text-blue:hover{
-  background-color: #819bc8;
+#tuile10{
+  background-image: url(../image/lunar_feature_header_pic.jpg);
+}
+.card a{
+  color: black;
 }
