@@ -79,3 +79,18 @@ body{
 #tuile7{
   background-image: url(../image/18-051c.jpg);
 }
+#events{
+  background-color: #39719E;
+  color: white;
+  padding-top: 10px;
+  font-weight: normal;
+}
+.infos, .left, .right{
+  color:white;
+  font-size: 0.8em;
+  font-weight: normal;
+}
+hr{
+  background-color:white;
+}
+.events-bas{}
