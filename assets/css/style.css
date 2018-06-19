@@ -57,8 +57,11 @@ body{
   background-color: #5D7FB9;
 }
 #ie{
-  height: 200px;
+  height: 580px;
 }
 .test{
   background-image:url(assets/image/img1.jpg);
+}
+#io{
+  height:250px;
 }
