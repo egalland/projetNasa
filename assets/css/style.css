@@ -21,22 +21,12 @@ body{
 .card h4{
   background-color: rgba(129, 155, 200, 0.9);
 }
-
 .card p:hover{
   background-color: white;
 }
 .card-img-overlay{
   padding: 15px;
 }
-
-/* @media all (min-width: 992px){
-  .card img{
-    min-width: 234px;
-    min-height: 222px;
-  } */
-/* .container{
-  max-width: 1400px;
-} */
 .card-text{
   position:relative;
   height: 50px;
@@ -50,18 +40,35 @@ body{
   background-position: center;
 }
 .bouton{
+  color: white;
+  font-weight: bold;
+  width: 100%;
   height: 40px;
-  background-color: blue;
+  background-color: #15418C;
   margin: 30px 0;
+  text-align: center;
+  padding: 5px;
 }
 .bouton:hover{
   background-color: #5D7FB9;
+  text-decoration: none;
+  color: white;
 }
 #ie{
-  height: 200px;
+  height: 580px;
 }
-.test{
-  background-image:url(assets/image/img1.jpg);
+#tuile5{
+  background-image: url(../image/img1.jpg);
+}
+#tuile6{
+  background-image:url(../image/img2.jpg);
+}
+#tuile7{
+  background-image: url(../image/18-051c.jpg);
+  margin: 15px;
+}
+#io{
+  height:250px;
 }
 #text-blue{
   position:relative;
