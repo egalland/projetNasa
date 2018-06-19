@@ -4,25 +4,41 @@ body{
   font-weight: bold;
 }
 .container-fluid{
-  max-width: 1366px;
-  padding: 0;
+  max-width: 1364px;
 }
 nav{
   z-index:100;
   margin: auto;
 }
+.navbar{
+  padding: 0;
+  margin: 0;
+}
+.navbar-header{
+  padding-top: 5px;
+}
+.nav-link{
+  color: white;
+}
+.nav-link:hover{
+  background-color: #15418c;
+  color: white;
+}
 .dropdown-menu{
   background-color: #15418c;
   border-right: 1px solid black;
 }
-.dropdown .dropdown-menu{
-  background-color: #15418c;
-}
-
 .dropdown:hover .dropdown-menu {
     display: block;
     margin-top: 0;
   border-radius:0;
+ }
+ .dropdown-item{
+   color: white;
+ }
+ .dropdown-item:hover{
+   color: white;
+   background-color: #072F54;
  }
  input[type=search]{
    background-color: #333333;
@@ -45,11 +61,17 @@ nav{
    top:0;
    z-index:1000;
    background-image:url(../image/Star.jpg);
+   margin: 0;
  }
+.btn{
+  border-radius: 0;
+}
 #ryan{
-  padding-top: 160px;
+  padding-top: 138px;
 }
 .card{
+  height:315px;
+  margin-top: 10px;
   background: none;
   padding-bottom: 10px;
 }
@@ -87,10 +109,7 @@ nav{
   top: 14.2em;
   padding: 0.2em 0 0 0.4em;
 }
-.card{
-  height:315px;
-  margin: 10px 0 0 0;
-}
+
 #events{
   background-color: #39719E;
   color: white;
@@ -179,5 +198,8 @@ hr{
   padding-left: 15px;
 }
 .test3{
-  padding-left: 40px;
+  padding: 0 10px;
+}
+.navbar-toggler-icon{
+  color: white;
 }
