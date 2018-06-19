@@ -38,9 +38,7 @@ nav{
 }
 .card{
   height:315px;
-  background-size:cover;
-  background-repeat: no-repeat;
-  background-position: center;
+  margin: 10px 0 0 0;
 }
 .bouton{
   color: white;
@@ -60,6 +58,15 @@ nav{
 #ie{
   height: 580px;
 }
+#io{
+  height:250px;
+}
+#tuile5, #tuile6, #tuile7, #tuile8, #tuile9, #tuile10{
+  height:315px;
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
 #tuile5{
   background-image: url(../image/img1.jpg);
 }
@@ -73,6 +80,7 @@ nav{
 #io{
   height:250px;
 }
+<<<<<<< HEAD
 #events{
   background-color: #39719E;
   color: white;
@@ -88,3 +96,17 @@ hr{
   background-color:white;
 }
 .events-bas{}
+=======
+#tuile8{
+  background-image: url(../image/p7090097.jpg);
+}
+#tuile9{
+  background-image: url(../image/pia19808.jpg);
+}
+#tuile10{
+  background-image: url(../image/lunar_feature_header_pic.jpg);
+}
+.card a{
+  color: black;
+}
+>>>>>>> 0fcd97526a1e8a53174ba86d62c2ed721a57a0bf
