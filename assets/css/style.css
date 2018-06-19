@@ -1,5 +1,7 @@
 body{
   background: black;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: bold;
 }
 nav{
   z-index:3000px;
@@ -31,11 +33,21 @@ nav{
 .card-img-overlay{
   padding: 15px;
 }
+#text-blue{
+  position:relative;
+  background-color: rgba(129, 155, 200, 0.9);
+  top:14.4em;
+}
+#text-blue:hover{
+  background-color: #819bc8;
+}
 .card-text{
   position:relative;
+  background-color: rgba(255, 255, 255, 0.9);
   height: 50px;
-  top:12em;
+  top:13.5em;
 }
+
 .card{
   height:315px;
   margin: 10px 0 0 0;
@@ -75,12 +87,16 @@ nav{
 }
 #tuile7{
   background-image: url(../image/18-051c.jpg);
-  margin: 15px;
 }
-#io{
-  height:250px;
+#tuile8{
+  background-image: url(../image/p7090097.jpg);
 }
-<<<<<<< HEAD
+#tuile9{
+  background-image: url(../image/pia19808.jpg);
+}
+#tuile10{
+  background-image: url(../image/lunar_feature_header_pic.jpg);
+}
 #events{
   background-color: #39719E;
   color: white;
@@ -94,17 +110,6 @@ nav{
 }
 hr{
   background-color:white;
-}
-.events-bas{}
-=======
-#tuile8{
-  background-image: url(../image/p7090097.jpg);
-}
-#tuile9{
-  background-image: url(../image/pia19808.jpg);
-}
-#tuile10{
-  background-image: url(../image/lunar_feature_header_pic.jpg);
 }
 .card a{
   color: black;
