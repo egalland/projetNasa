@@ -55,7 +55,7 @@ body{
   color: white;
 }
 #ie{
-  height: 200px;
+  height: 580px;
 }
 #tuile5{
   background-image: url(../image/img1.jpg);
@@ -66,4 +66,7 @@ body{
 #tuile7{
   background-image: url(../image/18-051c.jpg);
   margin: 15px;
+}
+#io{
+  height:250px;
 }
