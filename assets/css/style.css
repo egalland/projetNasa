@@ -1,5 +1,7 @@
 body{
   background: black;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: bold;
 }
 .container-fluid{
   max-width: 1366px;
@@ -33,11 +35,21 @@ nav{
 .card-img-overlay{
   padding: 15px;
 }
+#text-blue{
+  position:relative;
+  background-color: rgba(129, 155, 200, 0.9);
+  top:14.4em;
+}
+#text-blue:hover{
+  background-color: #819bc8;
+}
 .card-text{
   position:relative;
+  background-color: rgba(255, 255, 255, 0.9);
   height: 50px;
-  top:12em;
+  top:13.5em;
 }
+
 .card{
   height:315px;
   margin: 10px 0 0 0;
