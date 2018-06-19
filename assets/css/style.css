@@ -1,5 +1,7 @@
 body{
   background: black;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 600;
 }
 .container-fluid{
   max-width: 1352px;
@@ -19,9 +21,7 @@ body{
 .card h4{
   background-color: rgba(129, 155, 200, 0.9);
 }
-.card h4:hover{
-  background-color: #819bc8;
-}
+
 .card p:hover{
   background-color: white;
 }
@@ -40,7 +40,8 @@ body{
 .card-text{
   position:relative;
   height: 50px;
-  top:12em;
+  top:14em;
+  background-color: rgba(255, 255, 255, 0.9);
 }
 .card{
   height:315px;
@@ -61,4 +62,14 @@ body{
 }
 .test{
   background-image:url(assets/image/img1.jpg);
+}
+#text-blue{
+  position:relative;
+  background-color: rgba(129, 155, 200, 0.9);
+  font-weight: bold;
+  color: white;
+  top: 15em;
+}
+#text-blue:hover{
+  background-color: #819bc8;
 }
