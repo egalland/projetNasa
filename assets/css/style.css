@@ -29,8 +29,8 @@ nav{
   border-right: 1px solid black;
 }
 .dropdown:hover .dropdown-menu {
-    display: block;
-    margin-top: 0;
+  display: block;
+  margin-top: 0;
   border-radius:0;
  }
  .dropdown-item{
@@ -40,19 +40,12 @@ nav{
    color: white;
    background-color: #072F54;
  }
- input[type=search]{
-   background-color: #333333;
- }
  #ember926{
    background-color: white;
  }
  i{
    color: white;
    font-size: 20px;
- }
- .form-control{
-   border: none;
-   box-shadow: none;
  }
  .ec1{
    max-width: 1332px;
@@ -65,6 +58,21 @@ nav{
  }
 .btn{
   border-radius: 0;
+}
+.icon{
+  background-color: #333333;
+  padding: 6px 6px 6px 0;
+}
+.form-control, .icon{
+  border: none;
+  box-shadow: none;
+  border-radius: 0;
+}
+input[type=search]{
+  background-color: #333333;
+}
+input[type=search]:focus{
+  background-color: #333333;
 }
 .card{
   height:315px;
@@ -175,14 +183,13 @@ hr{
 .test{
   padding-right: 16px;
 }
-.footer{
+footer{
   color: white;
   font-size: small;
-}
-.footer .col-xs-12{
-  padding:0 0 0 20px;
+  /* padding:0 0 0 20px; */
   padding-bottom: 50px;
 }
+
 #logo{
   height:70px;
   padding-left: 15px;
@@ -206,6 +213,28 @@ hr{
   #ryan{
     padding-top: 138px;
   }
+  .navbar-header{
+    padding: 0;
+    height: 50px;
+  }
+  .nav-link{
+    padding: 30px 0;
+  }
+  .navbar-nav{
+    padding-left: 10em;
+    font-size: 1.1em;
+    font-weight: 200;
+  }
+  .nav-link:hover{
+    background-color: #15418c;
+  }
+  .blocLienFooter{
+    padding-left: 30%;
+  }
+  .lienFooter{
+    padding-right: 20px;
+    display: inline-block;
+  }
 }
 @media all and (max-width: 1022px){
   .secondNav{
@@ -222,5 +251,34 @@ hr{
   }
   #ryan{
     padding-top: 110px;
+  }
+  .navbar-header{
+    padding: 0;
+    height: 100px;
+  }
+  .nav-link{
+    padding: 5px;
+  }
+  .navbar-nav{
+    padding-left: 0;
+    font-size: 1em;
+    font-weight: 400;
+  }
+  .nav-link:hover{
+    background-color: #5D7FB9;
+  }
+  .nav-link{
+    background-color: #15418C;
+  }
+  img{
+    padding-top: 20px;
+    height: 90px;
+  }
+  .blocLienFooter{
+    padding-left: 0;
+  }
+  .lienFooter{
+    padding-right: 0;
+    display: block;
   }
 }
