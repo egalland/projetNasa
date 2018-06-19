@@ -5,19 +5,53 @@ body{
 }
 .container-fluid{
   max-width: 1366px;
+  padding: 0;
 }
 nav{
-  max-width: 1332px;
   z-index:100;
   margin: auto;
+}
+.dropdown-menu{
+  background-color: #15418c;
+  border-right: 1px solid black;
+}
+.dropdown .dropdown-menu{
+  background-color: #15418c;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+  border-radius:0;
+ }
+ input[type=search]{
+   background-color: #333333;
+ }
+ #ember926{
+   background-color: white;
+ }
+ i{
+   color: white;
+   font-size: 20px;
+ }
+ .form-control{
+   border: none;
+   box-shadow: none;
+ }
+ .ec1{
+   max-width: 1332px;
+   width: 100%;
+   position:fixed;
+   top:0;
+   z-index:1000;
+   background-image:url(../image/Star.jpg);
+ }
+#ryan{
+  padding-top: 160px;
 }
 .card{
   background: none;
   padding-bottom: 10px;
-}
-.card img{
-  height: 100%;
-  border-radius: 0px;
 }
 .card p{
   background-color: rgba(255, 255, 255, 0.9);
@@ -38,7 +72,10 @@ nav{
 #text-blue{
   position:relative;
   background-color: rgba(129, 155, 200, 0.9);
-  top:14.4em;
+  top:13.8em;
+  display: inline;
+  padding: 0.4em;
+  color: white;
 }
 #text-blue:hover{
   background-color: #819bc8;
@@ -47,18 +84,12 @@ nav{
   position:relative;
   background-color: rgba(255, 255, 255, 0.9);
   height: 50px;
-  top:13.5em;
+  top: 14.2em;
+  padding: 0.2em 0 0 0.4em;
 }
-
 .card{
   height:315px;
   margin: 10px 0 0 0;
-}
-#ie{
-  height: 580px;
-}
-#io{
-  height:250px;
 }
 #events{
   background-color: #39719E;
@@ -87,6 +118,12 @@ hr{
   background-image: url(https://www.nasa.gov/sites/default/files/styles/2x2_cardfeed/public/thumbnails/image/zurek-1-pia22519-1200.gif);
   height: 640px;
 }
+#tuile1 #text-blue{
+  top: 34.4em;
+}
+#tuile1 .card-text{
+  top: 34.6em;
+}
 #tuile2{
   background-image: url(https://www.nasa.gov/sites/default/files/thumbnails/image/peggy_whitson_0.jpg);
 }
@@ -101,7 +138,6 @@ hr{
 }
 #tuile7{
   background-image: url(../image/18-051c.jpg);
-  margin: 15px;
 }
 #tuile8{
   background-image: url(../image/p7090097.jpg);
@@ -129,4 +165,19 @@ hr{
 }
 .test{
   padding-right: 16px;
+}
+.footer{
+  color: white;
+  font-size: small;
+}
+.footer .col-xs-12{
+  padding:0 0 0 20px;
+  padding-bottom: 50px;
+}
+#logo{
+  height:70px;
+  padding-left: 15px;
+}
+.test3{
+  padding-left: 40px;
 }
